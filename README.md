@@ -1,18 +1,3 @@
-# VS-2008
-Issue with Pop Up Boxes sometimes not working
-
-
-Using ASP. Net 2008 with c# & PIUControls for a Risk Picker and Date Picker.
-.net framework is 3.5.
-
-Occasionaly on some pc's we have an issue where both of these pop up boxes do not work.  We are using Internet Explorer 11.
-
-Most of the time one of the following things fixes the issue (Deleting the browsing history, Turning on the 'Compatibility View Settings', or Turning on 'Enterprise Mode')
-
-However on the odd occasion this does not work.
-
-The code for this is as follows:
-
 <tr>
 
 <td class="fieldLabel" >
@@ -82,19 +67,3 @@ Current risk rating date must be entered</asp:RequiredFieldValidator>
 </td>
 
 </tr>
-
-
-Both the PIUControls and PIUControlsX are .dll files. I am unure as how to share them.  I cannot find links to them.  They are under the references section in asp.net but I am unsure as to what library they are found in.
-
-The files are referenced in the system at the beginning of the page.
-
-<%@  Register assembly="PIUControlsX" namespace="PIUControlsX" tagprefix="PIUControlsX" %>
-
-<%@  Register assembly="PIUControls" namespace="PIUControls" tagprefix="PIUControls" %>
-
-I inherited this system and have been maintaining it.
-
-
-I am new to this.
-
-Any ideas??
